@@ -1,0 +1,55 @@
+QWidget{
+    background-color : #37474F;
+    color:  white;
+}
+
+#menubar, #menuFile{
+    background-color: #2d3a41;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#groupBoxMachine QPushButton{
+    height : 20px;
+    width : 50px;
+    background-color : #18FFFF;
+    color : black;
+    border : 1px solid black;
+    border-radius : 10px;
+    font-weight: bold;
+
+}
+#pushButtonConf, #pushButtonEnc, #pushButtonDec, #pushButtonNext, #pushButtonRAZ{
+    height : 50px;
+    background-color : #00BCD4;
+    color : white;
+    border : 1px solid #00BCD4;
+    border-radius : 15px;
+    cursor : pointer;
+    font-weight: bold;
+
+}
+#messageLineEdit, #comboBoxRotor1, #comboBoxRotor2, #comboBoxRotor3, #spinBox, #spinBox_2, #spinBox_3, #lineEditRotor1, #lineEditRotor2, #lineEditRotor3{
+    height:25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#messageLabel{
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 15px;
+    border-color:red;
+    font-family: 8514oem;
+
+
+}
+#messageLineEdit{
+    border: 2px solid white;
+    border-radius: 10px;
+    border-color: blue;
+    font-family: 8514oem;
+
+
+}
